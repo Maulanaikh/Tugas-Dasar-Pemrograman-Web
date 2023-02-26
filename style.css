@@ -1,0 +1,121 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #26292e;
+}
+
+main{
+    display: flex;
+    
+}
+header {
+    display: inline;
+    text-align: center;
+}
+.top{
+    background-color: #1A1A1A;
+    color: #a3b1ee;;
+    padding: 1%;
+}
+.navigasi{
+    margin: 0px;
+    display: flex;
+    background-color: #2f323b;
+
+}
+.navigasi li{
+    list-style-type: none;
+    width: 80px;
+    background: #42444d;
+    margin-right: 20px;
+    border-radius:5%;;
+    padding: 1%;
+}
+
+.navigasi a{
+    color:#EDEDED;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+.navigasi >li> a:hover{
+    color:#a3b1ee;
+    transition: all .4s ease-in-out;
+  
+}
+.navigasi a{
+    color: #eeeeee;
+    list-style-type: none;
+    text-decoration: none;
+}
+.rounded{
+    margin-top: 20px;
+    border-radius: 50%;
+    width:90px ;
+}
+.font-image{
+    width: 100%;
+	max-height: 500px;
+}
+.card{
+    margin:22px 20px 22px 20px;
+    background: white;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0px #fff;
+}
+.profil{
+    margin:22px 20px 22px 20px;
+    width: 200px;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px 0px #a3b1ee;
+}
+.profil figure img{
+    margin-top: 20px;
+    border-radius: 10%;
+    width:100% ;
+}
+footer {
+	padding: 10px;
+	color: #eeeeee;
+	background-color: #2f323b;
+	text-align: center;
+}
+
+.content-table{
+    border-collapse: collapse;;
+    border: 1px solid;
+    width: 100%;
+    font-size: 0.9em;
+    
+
+}
+.content-table th {
+    background-color: #26292e;
+    color: #fff;
+    font-weight: bold;
+
+}
+.content-table tr{
+    border: 1px solid;
+}
+
+.contact{
+    background: #2f323b;
+    border-radius: 30px;
+    margin-top: 20px;
+    
+}
+.contact-logo{
+    padding:10px 3px 9px 3px;
+    border-radius: 50%;
+    width: 17%;
+}
+@media screen and (max-width: 765px) {
+    main {
+    flex-wrap:wrap; }
+ }
